@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let city of cities" 
+    (click)="setCity(city)"
+    >{{city.name}}</li>
+</ul>
+
+<button type="button" (click)="selectCity(current)">Refresh</button>

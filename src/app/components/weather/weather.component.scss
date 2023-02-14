@@ -1,0 +1,20 @@
+h3 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+}
+.w-wrp {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: right;
+}
+.w-btn {
+    background: #000;
+    outline: none;
+    color: #fff;
+    &.active {
+        background: #fff;
+        color: #000;
+    }
+}

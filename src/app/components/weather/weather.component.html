@@ -1,0 +1,12 @@
+<h3>Weather</h3> 
+<div class="w-wrp">
+    <button class="w-btn" [ngClass]="{ 'active': formatTemp === 'c' }" (click)="setFormat('c')">C</button>
+<button class="w-btn" [ngClass]="{ 'active': formatTemp === 'f' }" (click)="setFormat('f')">F</button>
+</div>
+    
+    
+
+<div *ngIf="data">
+    <p>Temperature: <span> {{data.temp | celsium:formatTemp}}</span></p>
+    <p>Humidity: <span> {{data.humid}}</span></p>
+</div>

@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import '/node_modules/css-reset-and-normalize/scss/reset-and-normalize.scss';
+// @import 'path/to/node_modules/css-reset-and-normalize/scss/reset-and-normalize';
+
+html, body {
+    height: 100%;
+}
