@@ -1,6 +1,7 @@
 <ul>
-    <li *ngFor="let city of cities" 
+    <li *ngFor="let city of cities"  
     (click)="setCity(city)"
+    [ngClass]="{ 'active': city === current }"
     >{{city.name}}</li>
 </ul>
 

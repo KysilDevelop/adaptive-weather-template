@@ -15,6 +15,7 @@ export class CitiesComponent implements OnInit {
 
 
   ngOnInit(): void {
+    this.current = this.cities[0];
     console.log('Cities:', this.cities);
   }
 

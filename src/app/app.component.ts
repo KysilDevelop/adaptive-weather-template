@@ -33,7 +33,6 @@ export class AppComponent implements OnInit {
   ];
 
   main: any;
-  // cities:any;
   current: any;
   status:boolean = false;
 

@@ -7,9 +7,11 @@
       </a>
     </div>
     
-    <nav class="menu btn1" 
-    (click)="toggleMenu()"
-    [ngClass]="status ? 'open' : ''">
+
+    <div class="menu">
+      <nav  
+          (click)="toggleMenu()"
+          [ngClass]="status ? 'open' : ''">
       <div class="menu-btn ">
         <div class="icon-left"></div> 
         <div class="icon-right"></div>
@@ -21,6 +23,8 @@
         <li><a href="#">Партнери</a></li>
       </ul>
     </nav>
+    </div>
+    
 
 
 
